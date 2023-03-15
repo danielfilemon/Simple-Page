@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: fantasy;
+    font-size: 1px;
+    color: black;
+    line-height: 1.5;
+}
+
+#Screen {
+    background-color: darkgray;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#Screen h1 {
+    font-size: 50px;
+    line-height: 1.0;
+}
+
+#Screen p {
+    font-size: 30px;
+}
+
+#Screen .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#Screen .button:hover {
+    background: black;
+    color: #fff;
+}
